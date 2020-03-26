@@ -3,13 +3,19 @@
 HERE=`pwd`
 ROOT=`dirname $HERE`
 MODS=(
+    "binda"
+    "rara"
+    "papanache"
     "cassi" 
     "dodi" 
     "carmel/sdk:@carmel/sdk"
     "chunky/carmel:chunky-carmel-plugin"
     "chunky/cli:chunky-cli"
 )
+
 DEPS=(
+ "rara:binda"
+ "dodi:rara"
  "dodi:cassi"
  "carmel/sdk:dodi"
  "chunky/carmel:@carmel/sdk"
